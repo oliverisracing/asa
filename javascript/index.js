@@ -5218,7 +5218,7 @@ function top2AndBlocked() {
     screen.createHeader("Bring back my winners!");
     screen.createBold("Ladies, I've made some decisions...");
     document.body.style.backgroundImage = "url('image/stage.webp')";
-    if (randomNumber(0, 100) >= 95) {gs = true;}
+    if (randomNumber(0, 100) >= 50) {gs = true;}
     if (gs) {
         screen.createImage("image/star.webp", "gold");
         screen.createBold("This week the top 2 will give away a star to one of them fellow contestants...");
